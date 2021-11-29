@@ -4,6 +4,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.btn {
+    color: #ffffff;
+    background-color: #2C2C2C;
+    padding: 30px 60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
 .content-container {
     max-width: 1170px;
     margin: 0 auto;
@@ -42,3 +52,53 @@ header .links .link a {
     color: #333333;
 }
 
+.contacts-container {
+    display: grid;
+    grid-template-columns: 515px auto;
+}
+
+.contacts-container .left {
+    margin-top: 117px;
+}
+
+.contacts-container .company-name {
+    margin-top: 34px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+
+}
+
+.contacts-container .address {
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.contacts-container .tel {
+    margin-top: 44px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.contacts-container .email {
+    margin-top: 53px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.contacts-container .contact-us {
+    margin-top: 63px;
+}
+
+.contacts-container .right {
+    margin-top: 30px;
+}
+
+.contacts-container .map {
+    border: 1px solid #333333;
+    height: 562px;
+}

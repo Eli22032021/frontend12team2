@@ -3,15 +3,38 @@
 
 <head>
     <title>Digital Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/style_ourprojects.css">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
+
+    <!-- Пример кода взят отсюда https://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example -->
+    <script src="assets/scripts/OpenLayers.js"></script>
+    <script>
+        function init() {
+            map = new OpenLayers.Map("basicMap");
+            var mapnik = new OpenLayers.Layer.OSM();
+            var fromProjection = new OpenLayers.Projection("EPSG:4326"); // Transform from WGS 1984
+            var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+            var position = new OpenLayers.LonLat(-97.719766, 30.2685537).transform(fromProjection, toProjection);
+            var zoom = 13;
+
+            map.addLayer(mapnik);
+
+            var markers = new OpenLayers.Layer.Markers("Markers");
+            map.addLayer(markers);
+            markers.addMarker(new OpenLayers.Marker(position));
+
+            map.setCenter(position, zoom);
+        }
+    </script>
 </head>
 <meta charset="utf-8" />
 </head>
 
-<body>
+<body onload="init();">
     <div class="content-container">
         <header>
             <div class="logo">
@@ -35,5 +58,21 @@
                 </div>
             </nav>
         </header>
+        <main class="contacts-container">
+            <div class="left">
+                <h1 class="projects__title"><span class="projects__our">Contact</span>Information</h1>
+                <div class="company-name">Company Name</div>
+                <div class="address">1234 Sample Street Austin Texas 76401</div>
+                <div class="tel">512.333.2222</div>
+                <div class="email">sampleemail@gmail.com</div>
+                <div class="contact-us">
+                    <a class="btn">Contact us</a>
+                </div>
+
+            </div>
+            <div class="right">
+                <div id="basicMap" class="map"></div>
+            </div>
+        </main>
     </div>
 </body>
