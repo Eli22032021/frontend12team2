@@ -95,7 +95,6 @@
 
     border: none;
     background-color: white;
-    text-decoration: none;
 }
 
 .item-project__textbutton {
@@ -106,16 +105,12 @@
     line-height: 12px;
 
     color: black;
+    text-decoration: none;
 }
 
 .item-project__arrow {
     width: 24px;
     height: 24px;
-}
-
-.item-project__button:active {
-    color: black;
-    background-color: #BDBDBD;
 }
 
 @media screen and (max-width: 499px) {
