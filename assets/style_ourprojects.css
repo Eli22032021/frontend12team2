@@ -43,6 +43,14 @@
     margin-bottom: 60px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .projects__items {
     background-color: #FBFBFB;
 }
@@ -111,6 +119,12 @@
 .item-project__arrow {
     width: 24px;
     height: 24px;
+}
+
+.item-project__button:active {
+    color: black;
+    background-color: #BDBDBD;
+    ;
 }
 
 @media screen and (max-width: 499px) {
