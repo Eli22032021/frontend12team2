@@ -95,6 +95,7 @@
 
     border: none;
     background-color: white;
+    text-decoration: none;
 }
 
 .item-project__textbutton {
@@ -104,6 +105,7 @@
     font-size: 12px;
     line-height: 12px;
 
+    color: black;
 }
 
 .item-project__arrow {
