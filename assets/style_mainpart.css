@@ -93,8 +93,6 @@ h2 {
 
 /* Вторая часть */
 
-
-
 .mission {
     display: grid;
     grid-template-areas: "mission__title"
@@ -126,11 +124,9 @@ h2 {
     grid-template-rows: 1fr 3fr 3fr;
     margin-left: 11vw;
     margin-right: 11vw;
-    gap: 2vw;
+    grid-row-gap: 2.4vw;
     /* border: solid 2px #a80808; */
 }
-
-
 
 .project__image1 {
     display: grid;
@@ -138,16 +134,16 @@ h2 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-area: project__image1;
-    gap: 2vw;
+    grid-column-gap: 2.5vw;
 }
 
 .project__image2 {
     display: grid;
     grid-template-areas: "image__item3 image__item4 image__item5";
-    grid-template-columns: 1fr 1.75fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-area: project__image2;
-    gap: 2vw;
+    grid-column-gap: 2.4vw;
 }
 
 .project__title {
@@ -178,7 +174,6 @@ h2 {
 
 .image__item2 {
     grid-area: image__item2;
-    padding-left: 5px;
 }
 
 .image__item3 {
@@ -192,7 +187,6 @@ h2 {
 .image__item5 {
     grid-area: image__item5;
 }
-
 
 .contact {
     display: grid;
