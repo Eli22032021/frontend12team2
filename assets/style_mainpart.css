@@ -100,10 +100,13 @@ h2 {
     grid-template-areas: "mission__title"
         "mission__statement";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 3fr;
     margin-top: 15vh;
     margin-left: 11vw;
     margin-right: 11vw;
+    margin-bottom: 15vh;
+    justify-items: start;
+    /* border: solid 2px #18be26; */
 }
 
 .mission__title {
@@ -121,27 +124,30 @@ h2 {
         "project__image2";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 3fr;
-    gap: 2vw;
     margin-left: 11vw;
     margin-right: 11vw;
+    gap: 2vw;
+    /* border: solid 2px #a80808; */
 }
+
+
 
 .project__image1 {
     display: grid;
     grid-template-areas: "image__item1 image__item2";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 2vw;
     grid-area: project__image1;
+    gap: 2vw;
 }
 
 .project__image2 {
     display: grid;
     grid-template-areas: "image__item3 image__item4 image__item5";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.75fr 1fr;
     grid-template-rows: 1fr;
-    gap: 2vw;
     grid-area: project__image2;
+    gap: 2vw;
 }
 
 .project__title {
@@ -164,7 +170,6 @@ h2 {
     padding-left: 5vw;
     width: 100%;
     height: 100%;
-    /* text-align: center; */
 }
 
 .image__item1:hover div {
@@ -173,6 +178,7 @@ h2 {
 
 .image__item2 {
     grid-area: image__item2;
+    padding-left: 5px;
 }
 
 .image__item3 {
@@ -199,6 +205,7 @@ h2 {
     margin-bottom: 10vh;
     margin-left: 11vw;
     margin-right: 11vw;
+    /* border: solid 2px #5308a8; */
 }
 
 .contact_title {
