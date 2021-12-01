@@ -115,7 +115,8 @@ header .links .link a {
 }
 
 .contacts-container .right {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 120px;
 }
 
 .contacts-container .map {
@@ -128,30 +129,30 @@ header .links .link a {
     background-color: rgba(44, 44, 44, 1);
 }
 
-.address {
+.podval .address {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr;
 }
 
-.logo {
+.podval .logo {
     margin-top: 58px;
 }
 
-.inform {
+.podval .inform {
     margin-top: 28px;
     margin-left: 100px;
 }
 
-.cont {
+.podval .cont {
     margin-top: 28px;
     margin-left: 157px;
 }
 
-.social {
+.podval .social {
     margin-top: 28px;
 }
 
-.zaglav {
+.podval .zaglav {
     font-family: 'Roboto', Times, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -161,7 +162,7 @@ header .links .link a {
     color: #FFFFFF;
 }
 
-p {
+.podval p {
     font-family: 'Roboto', Times, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -173,20 +174,20 @@ p {
     color: #FFFFFF;
 }
 
-.soc_seti {
+.podval .soc_seti {
     display: flex;
     width: 193px;
     justify-content: space-between;
 }
 
-.line_niz {
+.podval .line_niz {
     margin-top: 30px;
     mix-blend-mode: normal;
     opacity: 0.1;
     border: 1px solid #FFFFFF;
 }
 
-.text_niz {
+.podval .text_niz {
     margin-top: 5px;
     padding: 15px;
     font-family: 'Open Sans', Times, sans-serif;
@@ -199,20 +200,20 @@ p {
     color: rgba(200, 200, 200, 0.5);
 }
 
-.adres {
+.podval .adres {
     display: grid;
     grid-template-columns: 30px 365px;
     grid-template-rows: 55px;
 }
 
-.telephone_number {
+.podval .telephone_number {
     display: grid;
     grid-template-columns: 30px 365px;
     grid-template-rows: 67px;
     margin-top: 31px;
 }
 
-.mail {
+.podval .mail {
     display: grid;
     grid-template-columns: 30px 365px;
     grid-template-rows: 60px;
