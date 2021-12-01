@@ -47,12 +47,9 @@ html {
 
 .projects__line {
     margin-top: 30px;
+    margin-bottom: 30px;
 
     width: 100%;
-}
-
-.sample {
-    margin-top: 29px;
 }
 
 .projects__sample {
