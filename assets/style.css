@@ -64,7 +64,7 @@ header .links .link a {
     header .links {
         margin-top: 0;
     }
-    
+
     header .links .link {
         display: table;
         margin-bottom: 5px;
@@ -122,3 +122,100 @@ header .links .link a {
     border: 1px solid #333333;
     height: 562px;
 }
+
+/*Тут css подвала*/
+.podval {
+    background-color: rgba(44, 44, 44, 1);
+}
+
+.address {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+.logo {
+    margin-top: 58px;
+}
+
+.inform {
+    margin-top: 28px;
+    margin-left: 100px;
+}
+
+.cont {
+    margin-top: 28px;
+    margin-left: 157px;
+}
+
+.social {
+    margin-top: 28px;
+}
+
+.zaglav {
+    font-family: 'Roboto', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Roboto', Times, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-block-start: 0;
+
+    color: #FFFFFF;
+}
+
+.soc_seti {
+    display: flex;
+    width: 193px;
+    justify-content: space-between;
+}
+
+.line_niz {
+    margin-top: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+}
+
+.text_niz {
+    margin-top: 5px;
+    padding: 15px;
+    font-family: 'Open Sans', Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.adres {
+    display: grid;
+    grid-template-columns: 30px 365px;
+    grid-template-rows: 55px;
+}
+
+.telephone_number {
+    display: grid;
+    grid-template-columns: 30px 365px;
+    grid-template-rows: 67px;
+    margin-top: 31px;
+}
+
+.mail {
+    display: grid;
+    grid-template-columns: 30px 365px;
+    grid-template-rows: 60px;
+}
+
+/*Конец css подвала*/
