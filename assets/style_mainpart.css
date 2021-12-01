@@ -198,12 +198,12 @@ h2 {
     grid-template-areas: "contact_title contact_title"
         "input_form picture"
         "contact_btn contact_btn";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr 3fr;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    margin-top: 20vh;
     grid-column-gap: 30px;
-    /* border: solid 2px #5308a8; */
+    grid-row-gap: 14px;
+    border: solid 2px #5308a8;
 }
 
 .contact_title {
@@ -299,10 +299,12 @@ h1,
 
 .btn {
     color: #ffffff;
-    background-color: #2C2C2C;
-    padding: 30px 60px;
+    background-color: #333333;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-
+    width: 222px;
+    height: 71px;
+    border-radius: 0;
+    text-align: center;
 }
