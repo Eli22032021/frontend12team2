@@ -16,6 +16,7 @@ html {
 
 .projects {
     margin-top: 63px;
+    margin-bottom: 60px;
 }
 
 .projects__title .projects__our {
@@ -50,12 +51,15 @@ html {
     width: 100%;
 }
 
+.sample {
+    margin-top: 29px;
+}
+
 .projects__sample {
     display: grid;
     grid-template-columns: 1fr 0.8fr;
     grid-template-rows: 1fr;
 
-    margin-top: 30px;
     margin-bottom: 60px;
 }
 

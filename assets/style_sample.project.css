@@ -60,7 +60,7 @@ html {
 .projects__image_first {
     grid-area: img1;
 
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
     width: 1170px;
     height: 435px;
@@ -88,10 +88,12 @@ html {
 .projects__image_third {
     grid-area: img3;
 
-    margin-top: 0px;
-
     width: 1170px;
     height: 435px;
+}
+
+.projects {
+    margin-bottom: 120px;
 }
 
 @media screen and (max-width: 599px) {
