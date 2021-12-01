@@ -125,22 +125,21 @@ header .links .link a {
 
 /*Тут css подвала*/
 .podval {
-    width: 1440px;
     background-color: rgba(44, 44, 44, 1);
 }
 
 .address {
     display: grid;
-    grid-template-columns: 360px 103px 556px 193px;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
 }
 
 .logo {
     margin-top: 58px;
-    margin-left: 116px;
 }
 
 .inform {
     margin-top: 28px;
+    margin-left: 100px;
 }
 
 .cont {
@@ -198,10 +197,6 @@ p {
     align-items: center;
     text-align: center;
     color: rgba(200, 200, 200, 0.5);
-}
-
-.z1_1 {
-    width: 30px;
 }
 
 .adres {
