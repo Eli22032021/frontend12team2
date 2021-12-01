@@ -119,9 +119,10 @@ h2 {
     display: grid;
     grid-template-areas: "project__title"
         "project__image1"
-        "project__image2";
+        "project__image2"
+        "project__btn";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
     grid-row-gap: 30px;
     /* border: solid 2px #a80808; */
 }
@@ -187,15 +188,21 @@ h2 {
     grid-area: image__item5;
 }
 
+.project__btn {
+    grid-area: project__btn;
+    justify-self: end;
+}
+
 .contact {
     display: grid;
     grid-template-areas: "contact_title contact_title"
-        "input_form picture";
+        "input_form picture"
+        "contact_btn contact_btn";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 6fr;
-    gap: 2vw;
+    grid-template-rows: 1fr 5fr 3fr;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    grid-column-gap: 30px;
     /* border: solid 2px #5308a8; */
 }
 
@@ -214,6 +221,10 @@ form {
 .backcolor {
     background: #F3F3F3;
     color: #8D8D8D;
+}
+
+.contact_btn {
+    grid-area: contact_btn;
 }
 
 /* Шрифты вторая часть*/
