@@ -123,6 +123,7 @@ header .links .link a {
     height: 562px;
 }
 
+/*Тут css подвала*/
 .podval {
     width: 1440px;
     background-color: rgba(44, 44, 44, 1);
@@ -221,3 +222,5 @@ p {
     grid-template-columns: 30px 365px;
     grid-template-rows: 60px;
 }
+
+/*Конец css подвала*/
