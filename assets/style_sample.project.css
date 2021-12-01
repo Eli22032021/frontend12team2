@@ -46,7 +46,7 @@ html {
 
 .projects__container {
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
         "img1 img1"
@@ -74,12 +74,12 @@ html {
 .projects__text {
     grid-area: tx;
 
-    margin: 0;
-
     font-family: 'Roboto', Times, serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15.3px;
     line-height: 25px;
+
+    color: #000000;
 }
 
 .projects__image_third {
