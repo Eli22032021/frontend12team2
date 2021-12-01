@@ -46,19 +46,21 @@ html {
 
 .projects__container {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.6fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
         "img1 img1"
         "img2 tx"
         "img3 img3";
-    grid-gap: 10px;
+    grid-gap: 15px;
+
+    align-items: center;
 }
 
 .projects__image_first {
     grid-area: img1;
 
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     width: 1170px;
     height: 435px;
@@ -68,18 +70,21 @@ html {
     grid-area: img2;
 
     width: 419px;
-    height: 428px;
+    height: 430px;
 }
 
 .projects__text {
     grid-area: tx;
 
+    margin: 0px;
+
     font-family: 'Roboto', Times, serif;
     font-weight: 300;
-    font-size: 15.3px;
+    font-size: 16px;
     line-height: 25px;
+    letter-spacing: 0.2px;
 
-    color: #000000;
+    border: 1px solid black
 }
 
 .projects__image_third {
