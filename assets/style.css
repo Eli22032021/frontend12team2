@@ -115,7 +115,7 @@ header .links .link a {
 }
 
 .contacts-container .right {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 120px;
 }
 
@@ -123,6 +123,17 @@ header .links .link a {
     border: 1px solid #333333;
     height: 562px;
 }
+
+@media screen and (max-width: 985px) {
+    .contacts-container {
+        grid-template-columns: auto;
+    }
+
+    .contacts-container .left {
+        margin-bottom: 100px;
+    }
+}
+
 
 /*Тут css подвала*/
 .podval {
