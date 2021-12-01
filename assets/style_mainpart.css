@@ -285,3 +285,13 @@ h1,
     width: 24px;
     height: 24px;
 }
+
+.btn {
+    color: #ffffff;
+    background-color: #2C2C2C;
+    padding: 30px 60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
