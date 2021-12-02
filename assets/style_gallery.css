@@ -1,21 +1,22 @@
 *,
 * ::before,
 * ::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .gallery__title .gallery__photo {
-    display: block;
+  display: block;
 }
+
 .gallery__title {
   margin-top: 70px;
 
@@ -30,28 +31,30 @@ html {
   color: #BDBDBD;
   font-weight: 300;
 }
-  .images__container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    justify-content: space-between;
-    align-content: center;
-    margin: 20px;
-  }
-  .images__line {
-    margin-bottom: 30px;
-    width: 100%;
+
+.images__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
 }
+
+.images__line {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
 .item-gallery__button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-    margin-top: 5%;
-    margin-left: 6%;
-    
-    
+  margin-top: 5%;
+  margin-left: 6%;
 }
+
 .item-gallery__button-left {
   width: 52.95px;
   height: 53px;
@@ -59,13 +62,54 @@ html {
   margin-left: 5px;
   margin-bottom: 25px;
   background-color: white;
-  border-color: #d3d0d0; 
-}    
+  border-color: #F2F2F2;
+
+}
+
 .item-gallery__button-right {
   width: 52.95px;
   height: 53px;
   margin-left: 5px;
   margin-bottom: 25px;
   background-color: white;
-  border-color: #d3d0d0; 
-}   
+  border-color: #d3d0d0;
+}
+
+.item-project__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0px;
+
+  width: 222px;
+  height: 71px;
+
+  border: none;
+  background-color: white;
+}
+
+.item-project__textbutton {
+  margin-top: 15px;
+  margin-right: 25px;
+
+  font-family: 'Roboto', Times, serif;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+
+  color: black;
+  text-decoration: none;
+}
+
+.item-project__arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.item-project__button:active {
+  color: black;
+  background-color: #BDBDBD;
+  ;
+}
