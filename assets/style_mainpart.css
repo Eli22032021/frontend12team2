@@ -62,7 +62,7 @@
 
 h1,
 h2 {
-    font-family: Roboto;
+    font-family: 'Roboto', Times, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .about__text {
-    font-family: Roboto;
+    font-family: 'Roboto', Times, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -79,7 +79,7 @@ h2 {
 }
 
 .lorum__text {
-    font-family: Roboto;
+    font-family: 'Roboto', Times, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -103,8 +103,7 @@ h2 {
     grid-template-rows: 1fr 3fr;
     margin-top: 20vh;
     justify-items: start;
-    /* 
-    border: solid 2px #18be26; */
+    /* border: solid 2px #18be26; */
 }
 
 .mission__title {
@@ -219,7 +218,7 @@ form {
 /* Шрифты вторая часть*/
 h1,
 .textstyle {
-    font-family: Roboto;
+    font-family: 'Roboto', Times, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -240,7 +239,7 @@ h1,
 }
 
 .image1__text p {
-    font-family: Gothic A1;
+    font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -289,17 +288,31 @@ h1,
 .btn {
     color: #ffffff;
     background-color: #333333;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     width: 222px;
     height: 71px;
     border-radius: 0;
-    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn:active {
+    color: #ffffff;
+    background-color: #333333;
+    text-decoration: underline;
 }
 
 
 @media screen and (max-width: 767px) {
+
+    .mission {
+        grid-row-gap: 30px;
+    }
 
     .project {
         grid-template-areas: "project__title"
