@@ -101,10 +101,10 @@ h2 {
         "mission__statement";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-top: 20vh;
     justify-items: start;
-    /* border: solid 2px #18be26; */
+    /* 
+    border: solid 2px #18be26; */
 }
 
 .mission__title {
@@ -117,6 +117,7 @@ h2 {
 
 .project {
     display: grid;
+    margin-top: 15vh;
     grid-row-gap: 30px;
     /* border: solid 2px #a80808; */
 }
@@ -136,6 +137,10 @@ h2 {
 .project__title {
     grid-area: project__title;
 }
+
+/* .project img {
+    max-width: 100%;
+} */
 
 .image__item1 {
     grid-area: image__item1;
@@ -184,9 +189,9 @@ h2 {
 .contact {
     display: grid;
     margin-top: 20vh;
+    margin-bottom: 20vh;
     grid-column-gap: 30px;
-    grid-row-gap: 14px;
-    border: solid 2px #5308a8;
+    /* border: solid 2px #5308a8; */
 }
 
 .contact_title {
@@ -208,6 +213,7 @@ form {
 
 .contact_btn {
     grid-area: contact_btn;
+    align-self: end;
 }
 
 /* Шрифты вторая часть*/
@@ -368,7 +374,7 @@ h1,
             "project__image2"
             "project__btn";
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 3fr 3fr 1fr;
+        grid-template-rows: 1.2fr 3fr 3fr 1fr;
     }
 
     .project__image1 {
@@ -381,6 +387,7 @@ h1,
         grid-template-areas: "image__item3 image__item4 image__item5";
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        /* border: solid 2px orangered; */
     }
 
     .contact {
@@ -388,6 +395,6 @@ h1,
             "input_form picture"
             "contact_btn contact_btn";
         grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr 5fr 1fr;
+        grid-template-rows: 1.2fr 5fr 1.8fr;
     }
 }
