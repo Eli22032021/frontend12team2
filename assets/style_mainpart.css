@@ -314,6 +314,59 @@ h1,
     text-decoration: underline;
 }
 
+/*Адаптивность*/
+
+@media screen and (max-width:767px) {
+    .lorum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lorum__pic {
+        display: none
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .about__pic1 {
+        display: none;
+    }
+
+    .about__pic3 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lorum {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about__pic2 {
+        display: none;
+    }
+
+    .about__pic3 {
+        display: none;
+    }
+
+
+}
+
 
 @media screen and (max-width: 767px) {
 
