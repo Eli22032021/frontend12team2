@@ -147,6 +147,11 @@ a:hover {
     ;
 }
 
+.buttons {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
 @media screen and (max-width: 499px) {
 
     .projects__sample {
