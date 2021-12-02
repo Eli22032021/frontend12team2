@@ -173,6 +173,14 @@ header .links .link a {
     color: #FFFFFF;
 }
 
+.podval a {
+    text-decoration: none;
+}
+
+.podval p:hover {
+    text-decoration: underline;
+}
+
 .podval p {
     font-family: 'Roboto', Times, sans-serif;
     font-style: normal;
@@ -228,6 +236,61 @@ header .links .link a {
     display: grid;
     grid-template-columns: 30px 365px;
     grid-template-rows: 60px;
+}
+
+
+@media screen and (min-width: 1025px) {
+    .podval {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .podval .inform {
+        display: none;
+    }
+
+    .podval .soc_seti {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .podval .social {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .podval .logo {
+        display: none;
+    }
+
+    .podval .cont {
+        display: none;
+    }
+
+    .podval .line_niz {
+        display: none;
+    }
+
+    .podval .text_niz {
+        display: none;
+    }
+
+    .podval .address {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .podval .soc_seti {
+        display: flex;
+        width: 193px;
+        justify-content: space-between;
+    }
 }
 
 /*Конец css подвала*/
