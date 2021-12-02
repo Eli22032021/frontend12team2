@@ -195,11 +195,6 @@ h2 {
 
 .contact {
     display: grid;
-    grid-template-areas: "contact_title contact_title"
-        "input_form picture"
-        "contact_btn contact_btn";
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 5fr 1fr;
     margin-top: 20vh;
     grid-column-gap: 30px;
     grid-row-gap: 14px;
@@ -307,4 +302,80 @@ h1,
     height: 71px;
     border-radius: 0;
     text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .contact {
+        grid-template-areas: "contact_title"
+            "input_form"
+            "contact_btn";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+    }
+
+    .picture {
+        display: none;
+    }
+
+    /* .footer {
+        grid-template-areas: "footer1"
+            "footer2"
+            "footer3"
+            "footer4";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 5vh);
+    } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contact {
+        grid-template-areas: "contact_title"
+            "input_form"
+            "picture"
+            "contact_btn";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr 5fr 1fr;
+    }
+
+    /* .footer {
+        height: 10vh;
+        grid-template-areas: "footer1 footer2"
+            "footer3 footer4";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+    } */
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contact {
+        grid-template-areas: "contact_title contact_title"
+            "input_form picture"
+            "contact_btn contact_btn";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 5fr 1fr;
+    }
+
+    /* .container {
+        display: grid;
+        max-width: 100%;
+        max-height: 100%;
+        grid-template-areas: "header header"
+            "main nav"
+            "footer footer";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 10vh 30vh 10vh;
+        grid-gap: 0px;
+    }
+
+    .footer {
+        grid-template-areas: "footer1 footer2 footer3 footer4";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+    } */
 }
