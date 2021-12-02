@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style_gallery.css">
     <link rel="stylesheet" href="assets/style_ourprojects.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Our Projects</title>
@@ -17,7 +18,7 @@
     <div class="content-container">
         <header>
             <div class="header-logo">
-                <img src="assets/images/logo1.svg" />
+                <img alt="Logo" src="assets/images/logo1.svg" />
             </div>
             <nav class="links">
                 <div class="link">
@@ -41,47 +42,52 @@
             <h1 class="projects__title"><span class="projects__our">Our</span> Projects</h1>
             <div class="projects__container">
                 <div>
-                    <img class="projects__line" src="assets/images/line.png" />
+                    <img class="projects__line" src="assets/images/line.png" alt="line" />
                 </div>
                 <div class="projects__sample sample">
                     <div>
-                        <img class="projects__image" src="assets/images/image1.png" />
+                        <img class="projects__image" src="assets/images/image1.png" alt="project sample" />
                     </div>
                     <div class="projects__items item-project">
                         <h2 class="item-project__name">Sample Project</h2>
                         <p class="item-project__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a class="item-project__button" href="sampleproject.html">
                             <p class="item-project__textbutton">VIEW MORE</p>
-                            <img class="item-project__arrow" src="assets/images/arrow.png" />
+                            <img class="item-project__arrow" src="assets/images/arrow.png" alt="project arrow" />
                         </a>
                     </div>
                 </div>
                 <div class="projects__sample">
                     <div>
-                        <img class="projects__image" src="assets/images/image2.png" />
+                        <img class="projects__image" src="assets/images/image2.png" alt="project sample" />
                     </div>
                     <div class="projects__items item-project">
                         <h2 class="item-project__name">Sample Project 2</h2>
                         <p class="item-project__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button class="item-project__button" style="text-decoration: none;">
+                        <a class="item-project__button" href="#">
                             <p class="item-project__textbutton">VIEW MORE</p>
-                            <img class="item-project__arrow" src="assets/images/arrow.png" />
-                        </button>
+                            <img class="item-project__arrow" src="assets/images/arrow.png" alt="project arrow" />
+                        </a>
                     </div>
                 </div>
                 <div class="projects__sample">
                     <div>
-                        <img class="projects__image" src="assets/images/image3.png" />
+                        <img class="projects__image" src="assets/images/image3.png" alt="project sample" />
                     </div>
                     <div class="projects__items item-project">
                         <h2 class="item-project__name">Sample Project 3</h2>
                         <p class="item-project__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button class="item-project__button" style="text-decoration: none;">
+                        <a class="item-project__button" href="#">
                             <p class="item-project__textbutton">VIEW MORE</p>
-                            <img class="item-project__arrow" src="assets/images/arrow.png" />
-                        </button>
+                            <img class="item-project__arrow" src="assets/images/arrow.png" alt="project arrow" />
+                        </a>
                     </div>
                 </div>
+            </div>
+            <div class="item-gallery__button buttons">
+                <div><img src="assets/images/slide-numbers.png" alt="number"></div>
+                <button class="item-gallery__button-left" type="button"><img class="item-gallery__arrow" src="assets/images/arrow-2-right-long.png" alt="arrow"/></button>
+                <button class="item-gallery__button-right" type="button"><img class="item-gallery__arrow" src="assets/images/arrow-2-right-long1.png" alt="arrow"/></button>
             </div>
         </main>
     </div>
