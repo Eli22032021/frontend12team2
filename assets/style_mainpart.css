@@ -13,6 +13,13 @@
 
 .lorum__pic {
     grid-area: lorum__pic;
+    position: relative;
+}
+
+.lorum__pic__button {
+    grid-area: lorum__pic;
+    position: absolute;
+    bottom: 0;
 }
 
 .about {
