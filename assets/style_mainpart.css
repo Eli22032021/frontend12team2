@@ -63,7 +63,85 @@
     grid-row: 1/2;
     padding-right: 5vw;
 }
+.item-gallery__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
 
+  .item-gallery__button__pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+
+  .item-gallery__button-left {
+    width: 52.95px;
+    height: 53px;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border-color: #F2F2F2;
+  
+  
+  }
+  
+  .item-gallery__button-right {
+    width: 52.95px;
+    height: 53px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border-color: #F2F2F2;
+  }
+  
+  .item-project__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 0px;
+  
+    width: 222px;
+    height: 71px;
+  
+    border: none;
+    background-color: white;
+  }
+  
+  .item-project__textbutton {
+    margin-top: 15px;
+    margin-right: 25px;
+  
+    font-family: 'Roboto', Times, serif;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+  
+    color: black;
+    text-decoration: none;
+  }
+  
+  .item-project__arrow {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .item-project__button:active {
+    color: black;
+    background-color: #BDBDBD;
+    ;
+  }
 
 /*Текст*/
 
