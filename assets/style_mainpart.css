@@ -214,15 +214,14 @@ h2 {
 .project__btn {
     grid-area: project__btn;
     justify-self: end;
-    border: solid 2px #ceac16;
+    margin-top: 3%;
 }
 
 .contact {
     display: grid;
     margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-bottom: 25vh;
     grid-column-gap: 30px;
-    border: solid 2px #5308a8;
 }
 
 .contact_title {
@@ -317,7 +316,7 @@ h1,
     height: 24px;
 }
 
-.btn {
+.button {
     color: #ffffff;
     background-color: #333333;
     width: 222px;
@@ -333,10 +332,13 @@ h1,
     letter-spacing: 2px;
 }
 
-.btn:active {
+.button:hover {
     color: #ffffff;
-    background-color: #333333;
     text-decoration: underline;
+}
+
+.button img {
+    margin-left: 12px;
 }
 
 /*Адаптивность*/
@@ -484,13 +486,13 @@ h1,
     }
 
     .image__item1 img {
-        width: 49%;
+        width: 47%;
         height: 100%;
         object-fit: cover;
     }
 
     .image__item2 {
-        width: 49%;
+        width: 47%;
         height: 100%;
         object-fit: cover;
     }
@@ -502,7 +504,7 @@ h1,
     }
 
     .image__item4 {
-        width: 42%;
+        width: 41%;
         height: 100%;
         object-fit: cover;
     }
@@ -517,7 +519,7 @@ h1,
         grid-template-areas: "contact_title contact_title"
             "input_form picture"
             "contact_btn contact_btn";
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1.2fr 5fr 1.8fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1.2fr 5fr 1.6fr;
     }
 }
