@@ -38,10 +38,41 @@ html {
   max-width: 100%;
   justify-content: space-between;
   align-content: center;
+ 
 }
-
+.item-images__22 {
+  margin: 6px;
+}
+.item-images__23 {
+  margin: 6px;
+}
+.item-images__24 {
+  margin: 6px;
+}
+.item-images__25 {
+  margin: 6px;
+}
+.item-images__26 {
+  margin: 6px;
+}
+.item-images__27 {
+  margin: 6px;
+}
+.item-images__28 {
+  margin: 6px;
+}
+.item-images__29 {
+  margin: 6px;
+}
+.item-images__30 {
+  margin: 6px;
+}
+.item-images__31 {
+  margin: 6px;
+}
 .images__line {
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 24px;
   width: 100%;
 }
 
