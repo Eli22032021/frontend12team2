@@ -11,19 +11,28 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style_mainpart.css">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zen+Antique&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Zen+Antique&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="content-container">
         <header>
             <div class="header-logo">
-                <img src="assets/images/logo1.svg" />
+                <img alt="Logo" src="assets/images/logo1.svg" />
             </div>
             <nav class="links">
                 <div class="link active">
@@ -52,6 +61,18 @@
                     </div>
                     <div class="lorum__text">
                         Lorum
+                    </div>
+                    <div class="item-gallery__button">
+                        <div class="item-gallery__button__pages">
+                            <button class="item-gallery__button-left" type="button">
+                                <img class="item-gallery__arrow" src="assets/images/arrow-2-right-long.png"
+                                    alt="arrow" /></button>
+                            <button class="item-gallery__button-right" type="button"><img class="item-gallery__arrow"
+                                    src="assets/images/arrow-2-right-long1.png" alt="arrow" />
+                            </button>
+                        </div>
+                        <div class="item-gallery__slide-numbers"><img src="assets/images/slide-numbers1.png"
+                                alt="number"></div>
                     </div>
                 </div>
                 <div class="lorum__pic">
@@ -144,8 +165,8 @@
                     <h1>Our Projects</h1>
                 </div>
                 <div class="project__image1">
-                    <div class="image__item1">
-                        <img src="assets\images\Rectangle 12.png" alt="stadium">
+                    <div class="image__item1_all">
+                        <img src="assets\images\Rectangle 12.png" class="image__item1" alt="stadium">
                         <div class="image1__text">
                             <h1>Sample Project</h1>
                             <p>View More</p>
@@ -207,51 +228,74 @@
                 </section>
                 <section class="inform">
                     <h5 class="zaglav">Information</h5>
-                    <p>Main</p>
-                    <p>Gallery</p>
-                    <p>Projects</p>
-                    <p>Certifications</p>
-                    <p>Contacts</p>
+                    <a href="mainpart.html">
+                        <p>Main</p>
+                    </a>
+                    <a href="gallery.html">
+                        <p>Gallery</p>
+                    </a>
+                    <a href="ourprojects.html">
+                        <p>Projects</p>
+                    </a>
+                    <a href="certification.html">
+                        <p>Certifications</p>
+                    </a>
+                    <a href="contacts.html">
+                        <p>Contacts</p>
+                    </a>
                 </section>
                 <section class="cont">
-                    <h5 class="zaglav">Contacts</h5>
+                    <a href="contacts.html">
+                        <h5 class="zaglav">Contacts</h5>
+                    </a>
                     <div class="adres">
                         <div class="geo_location_icon"><img src="./assets/images/Vector.png" alt="location"></div>
                         <div class="number_house">
-                            <p>1234 Sample Street<br>
-                                Austin Texas 78704</p>
+                            <a href="contacts.html">
+                                <p>1234 Sample Street<br>
+                                    Austin Texas 78704</p>
+                            </a>
                         </div>
                     </div>
 
                     <div class="telephone_number">
                         <div class="telephone_icon"><img src="./assets/images/Group.png" alt="location"></div>
                         <div class="telephone_code">
-                            <p>512.333.2222</p>
+                            <a href="#">
+                                <p>512.333.2222</p>
+                            </a>
                         </div>
                     </div>
 
                     <div class="mail">
                         <div class="mail_icon"><img src="./assets/images/Group1.png" alt="location"></div>
                         <div class="mail_code">
-                            <p>sampleemail@gmail.com</p>
+                            <a href="#">
+                                <p>sampleemail@gmail.com</p>
+                            </a>
                         </div>
                     </div>
                 </section>
 
                 <section class="social">
-                    <h5 class="zaglav">Social Media</h5>
+                    <a href="#">
+                        <h5 class="zaglav">Social Media</h5>
+                    </a>
                     <div class="soc_seti">
-                        <img src="./assets/images/facebook.png" alt="facebook"><img src="./assets/images/twitter.png"
-                            alt="twitter"><img src="./assets/images/in.png" alt="in"><img
-                            src="./assets/images/pinterest.png" alt="pinterest">
+                        <a href="https://ru-ru.facebook.com/"><img src="./assets/images/facebook.png"
+                                alt="facebook"></a>
+                        <a href="https://twitter.com/"><img src="./assets/images/twitter.png" alt="twitter"></a>
+                        <a href="https://www.linkedin.cn/login"><img src="./assets/images/in.png" alt="in"></a>
+                        <a href="https://www.pinterest.ru/"><img src="./assets/images/pinterest.png"
+                                alt="pinterest"></a>
                     </div>
                 </section>
             </address>
-            <div class="line_niz">
-            </div>
-            <div class="text_niz">
-                © 2021 All Rights Reserved
-            </div>
+        </div>
+        <div class="line_niz">
+        </div>
+        <div class="text_niz">
+            © 2021 All Rights Reserved
         </div>
     </footer>
 
