@@ -77,15 +77,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-<<<<<<< Updated upstream
-    margin-top: 4%;
 
-    margin-bottom: 5%;
-=======
-
-    
-  }
->>>>>>> Stashed changes
 
 }
 
@@ -93,13 +85,8 @@
     width: 52.95px;
     height: 53px;
     margin-right: 5px;
-<<<<<<< Updated upstream
     margin-left: 30px;
     margin-bottom: 25px;
-=======
-  margin-left: 30px;
-  margin-bottom: 40px;
->>>>>>> Stashed changes
     background-color: transparent;
     border-color: #F2F2F2;
 
@@ -110,25 +97,17 @@
     width: 52.95px;
     height: 53px;
     margin-left: 5px;
-<<<<<<< Updated upstream
     margin-bottom: 25px;
     background-color: transparent;
     border-color: #F2F2F2;
 }
 
-=======
-  margin-bottom: 40px;
-    background-color: transparent;
-    border-color: #F2F2F2;
-  }
-
-  .item-gallery__slide-numbers {
+.item-gallery__slide-numbers {
     display: flex;
     justify-content: start;
     margin-left: 15px;
 
-  }
->>>>>>> Stashed changes
+}
 
 /*Текст*/
 
